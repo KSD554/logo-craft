@@ -256,10 +256,11 @@ export default function Home() {
           setIsDownloading(false)
           setDownloadCompleted(true)
         })
-        .catch((error: any) => {
-          console.error(error)
-          setIsDownloading(false)
-        })
+        .catch((error: Error) => {
+          console.error(error);
+          setIsDownloading(false);
+        });
+        
 
     }
   }
