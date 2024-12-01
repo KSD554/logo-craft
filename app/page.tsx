@@ -330,7 +330,7 @@ export default function Home() {
                 className="w-10 h-10"
                 alt="logo"
               />
-              <span className="text-secondary ml-2">e</span>Logo
+              <span className="text-secondary ml-2">Logo</span>Craft
             </div>
             <div className="flex items-center">
               <IconPicker onIconSelect={setSelectedIcon} selected={selectedIcon} />
